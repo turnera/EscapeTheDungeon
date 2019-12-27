@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "EscapeTheDungeon (Debug)",
+			"request": "launch",
+			"preLaunchTask": "EscapeTheDungeon Win64 Debug Build",
+			"program": "C:\\Users\\v-tualle\\Documents\\Unreal Projects\\EscapeTheDungeon\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "EscapeTheDungeon (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "EscapeTheDungeon Win64 DebugGame Build",
+			"program": "C:\\Users\\v-tualle\\Documents\\Unreal Projects\\EscapeTheDungeon\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "EscapeTheDungeon (Development)",
+			"request": "launch",
+			"preLaunchTask": "EscapeTheDungeon Win64 Development Build",
+			"program": "C:\\Users\\v-tualle\\Documents\\Unreal Projects\\EscapeTheDungeon\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "EscapeTheDungeon (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "EscapeTheDungeon Win64 Shipping Build",
+			"program": "C:\\Users\\v-tualle\\Documents\\Unreal Projects\\EscapeTheDungeon\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "EscapeTheDungeon (Test)",
+			"request": "launch",
+			"preLaunchTask": "EscapeTheDungeon Win64 Test Build",
+			"program": "C:\\Users\\v-tualle\\Documents\\Unreal Projects\\EscapeTheDungeon\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "EscapeTheDungeonEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "EscapeTheDungeonEditor Win64 Debug Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.23\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"C:\\Users\\v-tualle\\Documents\\Unreal Projects\\EscapeTheDungeon\\EscapeTheDungeon.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "EscapeTheDungeonEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "EscapeTheDungeonEditor Win64 DebugGame Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.23\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"C:\\Users\\v-tualle\\Documents\\Unreal Projects\\EscapeTheDungeon\\EscapeTheDungeon.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "EscapeTheDungeonEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "EscapeTheDungeonEditor Win64 Development Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.23\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"C:\\Users\\v-tualle\\Documents\\Unreal Projects\\EscapeTheDungeon\\EscapeTheDungeon.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.23",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.23\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.23\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"C:\\Users\\v-tualle\\Documents\\Unreal Projects\\EscapeTheDungeon\\EscapeTheDungeon.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.23"
+		}
+	]
+}

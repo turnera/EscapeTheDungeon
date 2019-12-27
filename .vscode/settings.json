@@ -1,0 +1,9 @@
+{
+	"files.exclude": {
+		"C:/Users/v-tualle/Documents/Unreal Projects/EscapeTheDungeon/.vs": true,
+		"C:/Users/v-tualle/Documents/Unreal Projects/EscapeTheDungeon/.vscode": true,
+		"C:/Users/v-tualle/Documents/Unreal Projects/EscapeTheDungeon/Content": true,
+		"C:/Users/v-tualle/Documents/Unreal Projects/EscapeTheDungeon/Intermediate": true,
+		"C:/Users/v-tualle/Documents/Unreal Projects/EscapeTheDungeon/Saved": true
+	}
+}
