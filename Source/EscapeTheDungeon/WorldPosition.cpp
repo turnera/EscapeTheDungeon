@@ -20,6 +20,10 @@ void UWorldPosition::BeginPlay()
 {
 	Super::BeginPlay();
 
+	ObjectPosition = GetOwner()->GetActorLocation().ToString();
+
+	UE_LOG(LogTemp, Warning, TEXT("%s"), *ObjectPosition);
+
 }
 
 
